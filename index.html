@@ -12,6 +12,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/80ce13c384.js" crossorigin="anonymous"></script>
 <!-- tailwind-custom-color -->
 <script>
     tailwind.config = {
@@ -34,15 +36,25 @@
     <header class="container mx-auto">
         <div class="hero max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10 ">
             <div class="hero-content flex-col lg:flex-row">
-              
               <div>
-                <h1 class="text-7xl font-extrabold">It's good 
+                <h1 class="text-4xl lg:text-7xl font-extrabold">It's good 
                     tea time at The Tea House</h1>
                 <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
                 
                 <button class="btn">explore more</button>
               </div>
-             <div> <img src="/images//banner.png" class="max-w-3/4 rounded-lg shadow-2xl" />
+             <div>
+               <img src="/images//banner.png" class="max-w-3/4" />
+               <!-- ratings-badge  -->
+               <div class="-mt-16 lr:-mt-24 -ml-5 lg:-ml-12 flex items-center gap-6 drop-shadow-lg bg-white w-48 lg:w-60">
+                <i class="fa-solid fa-star text-3xl bg text-amber-400 p-5 "></i>
+                <div>
+                  <h3 class="text-3xl">
+                    5.00
+                  </h3>
+                  <p>Trust Pilot Ratings</p>
+                </div>
+               </div>
             </div>
             </div>
           </div>
